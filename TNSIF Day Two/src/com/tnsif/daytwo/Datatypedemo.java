@@ -8,6 +8,7 @@ public class Datatypedemo {
 		String s2= "2";
 		System.out.println(s1 + s2);
 		
+//      Integer save only whole number
 //		1 byte = 8 bits 
 //		2 ^ 8 = 256 / 2 = +-128
 //		0 is consider positive number not negative
