@@ -18,6 +18,7 @@ public class HierarchicalDemo {
 		
 		p=new Student("Aditya","Mumbai","TY",12345f);
 		System.out.println(p);
+		
 	}
 
 }
