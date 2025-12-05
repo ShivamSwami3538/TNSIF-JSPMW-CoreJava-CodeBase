@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600">
+  <rect width="100%" height="100%" rx="40" fill="hsl(144,70%,60%)"/>
+  <circle cx="300" cy="260" r="140" fill="white" opacity="0.12"/>
+  <text x="50%" y="70%" font-size="48" font-family="Arial" fill="white" text-anchor="middle">Track 4</text>
+</svg>

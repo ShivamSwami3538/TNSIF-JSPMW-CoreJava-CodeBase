@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MyPersonal Music Player</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="player">
+    <div class="now-playing">
+      <img id="cover" src="" alt="cover" />
+      <div class="info">
+        <div id="now-title">--</div>
+        <div id="now-artist">--</div>
+      </div>
+    </div>
+
+    <audio id="audio"></audio>
+
+    <div class="controls">
+      <button id="prev">⏮</button>
+      <button id="play">▶️</button>
+      <button id="next">⏭</button>
+      <input id="seek" type="range" min="0" max="100" value="0">
+      <div class="time"><span id="current">0:00</span> / <span id="duration">0:00</span></div>
+      <input id="volume" type="range" min="0" max="1" step="0.01" value="0.8">
+    </div>
+
+    <div class="extras">
+      <input id="search" placeholder="Search songs..." />
+      <button id="voice">🎤</button>
+      <button id="shuffle">Shuffle</button>
+      <button id="repeat">Repeat</button>
+    </div>
+
+    <div class="lists">
+      <div class="playlist" id="playlist"></div>
+      <div class="side">
+        <h3>Recently Played</h3>
+        <ul id="recent"></ul>
+        <h3>Favorites</h3>
+        <ul id="favorites"></ul>
+      </div>
+    </div>
+  </div>
+
+<script src="app.js"></script>
+</body>
+</html>
